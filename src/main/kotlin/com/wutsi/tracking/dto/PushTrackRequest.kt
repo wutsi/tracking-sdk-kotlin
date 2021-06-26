@@ -18,5 +18,7 @@ public data class PushTrackRequest(
   public val page: String? = null,
   public val event: String? = null,
   public val `value`: String? = null,
-  public val url: String? = null
+  public val url: String? = null,
+  public val siteid: String? = null,
+  public val impressions: String? = null
 )

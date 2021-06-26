@@ -28,5 +28,7 @@ data class Track(
     var url: String? = null,
     var source: String? = null,
     var campaign: String? = null,
-    var medium: String? = null
+    var medium: String? = null,
+    var siteid: String? = null,
+    var impressions: String? = null
 )
